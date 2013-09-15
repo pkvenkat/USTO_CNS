@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="syntax">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="linesize" type="xs:int" />
+				<xs:element name="logicalgroup" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string" />
+							<xs:element name="id" type="xs:string" />
+							<xs:element name="dataelement" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" type="xs:string" />
+										<xs:element name="id" type="xs:string" />
+										<xs:element name="fieldsize" type="xs:string"/>
+										<xs:element name="maxsize" type="xs:string"/>
+										<xs:element name="datatype" type="xs:string"/>
+										<xs:element name="required" type="xs:string"/>
+										<xs:element name="position" minOccurs ="0" maxOccurs="unbounded" >
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="name" type="xs:string"/>
+													<xs:element name="startpos" type="xs:int"/>
+													<xs:element name="fieldsize" type="xs:int" />
+													<xs:element name="datatype" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

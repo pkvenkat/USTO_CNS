@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax>
+  <linesize>80</linesize>
+  <logicalgroup>
+    <name>Patent Bibliographic Information</name>
+    <id>PATN</id>
+    <dataelement>
+      <name>Patent Number</name>
+      <id>WKU</id>
+      <fieldsize>8</fieldsize>
+       <maxsize>8</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+   <dataelement>
+      <name>Series Code</name>
+      <id>SRC</id>
+      <fieldsize>1</fieldsize>
+      <maxsize>1</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+    <dataelement>
+      <name>Application Number</name>
+      <id>APN</id>
+      <fieldsize>6</fieldsize>
+       <maxsize>6</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement> 
+    <dataelement>
+      <name>Application Type</name>
+      <id>APT</id>
+      <fieldsize>1</fieldsize>
+       <maxsize>1</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+       <dataelement>
+      <name>Term of Patent</name>
+      <id>TRM</id>
+      <fieldsize>-1</fieldsize>
+       <maxsize>4</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+      <name>Publication Level</name>
+      <id>PBL</id>
+      <fieldsize>2</fieldsize>
+       <maxsize>2</maxsize>
+      <datatype>A</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+      <name>Application Filing Date</name>
+      <id>APD</id>
+      <fieldsize>8</fieldsize>
+       <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+    <dataelement>
+      <name>Art Unit</name>
+      <id>ART</id>
+      <fieldsize>3</fieldsize>
+       <maxsize>3</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+       <dataelement>
+      <name>Title of Invention</name>
+      <id>TTL</id>
+      <fieldsize>-1</fieldsize>
+       <maxsize>255</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+  <dataelement>
+      <name>Issue Date</name>
+      <id>ISD</id>
+      <fieldsize>8</fieldsize>
+       <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>
+<dataelement>
+      <name>Number of Claims</name>
+      <id>NCL</id>
+      <fieldsize>-1</fieldsize>
+       <maxsize>4</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+<dataelement>
+      <name>Exemplary Claim Numbers</name>
+      <id>ECL</id>
+      <fieldsize>-1</fieldsize>
+       <maxsize>14</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+<dataelement>
+      <name>Assistant Examinar</name>
+      <id>EXA</id>
+      <fieldsize>-1</fieldsize>
+       <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+<dataelement>
+      <name>Primary Examinar</name>
+      <id>EXP</id>
+      <fieldsize>-1</fieldsize>
+       <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+</dataelement>
+<dataelement>
+      <name>Number of Drawing Sheets</name>
+      <id>NDR</id>
+      <fieldsize>-1</fieldsize>
+       <maxsize>4</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+</dataelement>
+<dataelement>
+      <name>Number of Figures</name>
+      <id>NFG</id>
+      <fieldsize>-1</fieldsize>
+       <maxsize>4</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+</dataelement>
+<dataelement>
+      <name>Disclaimer Date</name>
+      <id>DCD</id>
+      <fieldsize>8</fieldsize>
+       <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+</dataelement>
+<dataelement>
+      <name>Number of Pages of Specification</name>
+      <id>NPS</id>
+      <fieldsize>-1</fieldsize>
+       <maxsize>4</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+      </dataelement>
+</logicalgroup>
+<logicalgroup>
+    <name>INVENTER</name>
+    <id>INVT</id>
+      <dataelement>
+      <name>Inventor Name</name>
+      <id>NAM</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+      <dataelement>
+      <name>Street</name>
+      <id>STR</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+      <name>City</name>
+      <id>CTY</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+    <dataelement>
+      <name>State</name>
+      <id>STA</id>
+      <fieldsize>2</fieldsize>
+      <maxsize>2</maxsize>
+      <datatype>A</datatype>
+      <required>O</required>
+    </dataelement>
+  <dataelement>
+      <name>Country</name>
+      <id>CNT</id>
+      <fieldsize>3</fieldsize>
+      <maxsize>3</maxsize>
+      <datatype>A</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+      <name>Zip Code</name>
+      <id>ZIP</id>
+      <fieldsize>5</fieldsize>
+      <maxsize>5</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+      <name>Rule 47 Indicator</name>
+      <id>R47</id>
+      <fieldsize>1</fieldsize>
+      <maxsize>1</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+      <name>Inventor Descriptive text</name>
+      <id>ITX</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+</logicalgroup>
+<logicalgroup>
+    <name>ASSIGNEE</name>
+    <id>ASSG</id>
+      <dataelement>
+      <name>Inventor Name</name>
+      <id>NAM</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+     <dataelement>
+      <name>City</name>
+      <id>CTY</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+      <name>State</name>
+      <id>STA</id>
+      <fieldsize>2</fieldsize>
+      <maxsize>2</maxsize>
+      <datatype>A</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+ <name>Country</name>
+      <id>CNT</id>
+      <fieldsize>3</fieldsize>
+      <maxsize>3</maxsize>
+      <datatype>A</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+      <name>Zip Code</name>
+      <id>ZIP</id>
+      <fieldsize>5</fieldsize>
+      <maxsize>5</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+      <name>Assignee Type code</name>
+      <id>COD</id>
+      <fieldsize>2</fieldsize>
+      <maxsize>2</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+    <dataelement>
+      <name>Assignee Descriptive text</name>
+      <id>ITX</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+</logicalgroup>
+<logicalgroup>
+    <name>Abstract</name>
+    <id>ABST</id>
+<dataelement>
+      <name>Inventor Name</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+</logicalgroup>
+<logicalgroup>
+    <name>Foriegn Priority</name>
+    <id>PRIR</id>
+      <dataelement>
+     <name>Country</name>
+      <id>CNT</id>
+      <fieldsize>3</fieldsize>
+      <maxsize>3</maxsize>
+      <datatype>A</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+      <name>Priority Application Date</name>
+      <id>APD</id>
+      <fieldsize>8</fieldsize>
+       <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+       <dataelement>
+      <name> Priority Application Number</name>
+      <id>APN</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>   
+</logicalgroup>
+<logicalgroup>
+    <name>Re Issue</name>
+    <id>REIS</id>
+      <dataelement>
+     <name>Re issue Code</name>
+      <id>COD</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>2</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+     <dataelement>
+      <name>Application Number</name>
+      <id>APN</id>
+      <fieldsize>6</fieldsize>
+       <maxsize>6</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+       <dataelement>
+      <name>Application Filing Date</name>
+      <id>APD</id>
+      <fieldsize>8</fieldsize>
+      <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>   
+       <dataelement>
+      <name>Patent Number</name>
+      <id>PNO</id>
+      <fieldsize>9</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement> 
+       <dataelement>
+      <name>Issue Date</name>
+      <id>ISD</id>
+      <fieldsize>8</fieldsize>
+      <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>  
+</logicalgroup>
+
+<logicalgroup>
+    <name>Related US application Data</name>
+    <id>RLAP</id>
+      <dataelement>
+     <name>Parent Code</name>
+      <id>COD</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>2</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+     <dataelement>
+      <name>Application Number</name>
+      <id>APN</id>
+      <fieldsize>6</fieldsize>
+       <maxsize>6</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+       <dataelement>
+      <name>Application Filing Date</name>
+      <id>APD</id>
+      <fieldsize>8</fieldsize>
+      <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>   
+       <dataelement>
+      <name>Patent Status Code</name>
+      <id>PSC</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>1</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+       <dataelement>
+      <name>Patent Number</name>
+      <id>PNO</id>
+      <fieldsize>9</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement> 
+       <dataelement>
+      <name>Issue Date</name>
+      <id>ISD</id>
+      <fieldsize>8</fieldsize>
+      <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>  
+</logicalgroup>
+<logicalgroup>
+    <name>Classification</name>
+    <id>CLAS</id>
+      <dataelement>
+     <name>Original US classification</name>
+      <id>OCL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+      <position>
+      <name>Class</name>
+      <startpos>6</startpos>
+      <fieldsize>3</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+      <position>
+      <name>Sub-class</name>
+      <startpos>10</startpos>
+      <fieldsize>6</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>
+      <dataelement>
+     <name>Cross reference to US classification</name>
+      <id>XCL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+      <position>
+      <name>Class</name>
+      <startpos>6</startpos>
+      <fieldsize>3</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+      <position>
+      <name>Sub-class</name>
+      <startpos>10</startpos>
+      <fieldsize>6</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>
+       <dataelement>
+     <name>Unofficial reference to US classification</name>
+      <id>UCL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+      <position>
+      <name>Class</name>
+      <startpos>6</startpos>
+      <fieldsize>3</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+      <position>
+      <name>Sub-class</name>
+      <startpos>10</startpos>
+      <fieldsize>6</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>
+     <dataelement>
+     <name>Digest Entry Reference classification</name>
+      <id>DCL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+      <position>
+      <name>Class</name>
+      <startpos>6</startpos>
+      <fieldsize>3</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+      <position>
+      <name>Sub-class</name>
+      <startpos>10</startpos>
+      <fieldsize>6</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>   
+ <dataelement>
+     <name>International classification Edition Field</name>
+      <id>EDF</id>
+      <fieldsize>1</fieldsize>
+      <maxsize>1</maxsize>
+      <datatype>N</datatype>
+      <required>O</required> 
+ </dataelement>
+  <dataelement>
+     <name>International Classification</name>
+      <id>ICL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>14</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+      <position>
+      <name>Section</name>
+      <startpos>6</startpos>
+      <fieldsize>1</fieldsize>
+      <datatype>A</datatype>
+      </position>
+      <position>
+      <name>Class</name>
+      <startpos>7</startpos>
+      <fieldsize>2</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>     
+    <dataelement>
+     <name>Field of Search Class</name>
+      <id>FSC</id>
+      <fieldsize>3</fieldsize>
+      <maxsize>3</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required> 
+    </dataelement>
+    <dataelement>
+     <name>Field of Search Sub Class</name>
+      <id>FSS</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required> 
+    </dataelement>   
+   </logicalgroup>
+<logicalgroup>
+    <name>U S Reference</name>
+    <id>UREF</id>
+      <dataelement>
+     <name>Patent Number</name>
+      <id>PNO</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+     <dataelement>
+      <name>Issue Date</name>
+      <id>ISD</id>
+      <fieldsize>8</fieldsize>
+       <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+       <dataelement>
+      <name>Patentee Name</name>
+      <id>NAM</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+      </dataelement>
+         <dataelement>
+<name>Original US classification</name>
+      <id>OCL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+      <position>
+      <name>Class</name>
+      <startpos>6</startpos>
+      <fieldsize>3</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+      <position>
+      <name>Sub-class</name>
+      <startpos>10</startpos>
+      <fieldsize>6</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>
+      <dataelement>
+     <name>Cross reference to US classification</name>
+      <id>XCL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+      <position>
+      <name>Class</name>
+      <startpos>6</startpos>
+      <fieldsize>3</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+      <position>
+      <name>Sub-class</name>
+      <startpos>10</startpos>
+      <fieldsize>6</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>
+       <dataelement>
+     <name>Unofficial reference to US classification</name>
+      <id>UCL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+      <position>
+      <name>Class</name>
+      <startpos>6</startpos>
+      <fieldsize>3</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+      <position>
+      <name>Sub-class</name>
+      <startpos>10</startpos>
+      <fieldsize>6</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>    
+</logicalgroup>
+<logicalgroup>
+    <name>Foriegn Reference</name>
+    <id>FREF</id>
+      <dataelement>
+     <name>Foreign Patent Number</name>
+      <id>PNO</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+     <dataelement>
+      <name>Issue Date</name>
+      <id>ISD</id>
+      <fieldsize>8</fieldsize>
+       <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+    <dataelement>
+      <name>Country Code</name>
+      <id>CNT</id>
+      <fieldsize>3</fieldsize>
+       <maxsize>3</maxsize>
+      <datatype>A</datatype>
+      <required>R</required>
+    </dataelement>    
+     <dataelement>
+     <name>Classification</name>
+      <id>OCL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>9</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+      <position>
+      <name>Class</name>
+      <startpos>6</startpos>
+      <fieldsize>3</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+      <position>
+      <name>Sub-class</name>
+      <startpos>10</startpos>
+      <fieldsize>6</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>
+    <dataelement>
+     <name>International Classification</name>
+      <id>ICL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>14</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+      <position>
+      <name>Section</name>
+      <startpos>6</startpos>
+      <fieldsize>1</fieldsize>
+      <datatype>A</datatype>
+      </position>
+      <position>
+      <name>Class</name>
+      <startpos>7</startpos>
+      <fieldsize>2</fieldsize>
+      <datatype>A/N</datatype>
+      </position>
+    </dataelement>  
+</logicalgroup>
+<logicalgroup>
+    <name>Other Reference</name>
+    <id>OREF</id>
+      <dataelement>
+     <name>Paragraphs Text data</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+</logicalgroup>
+<logicalgroup>
+    <name>Legal Information</name>
+    <id>LREP</id>
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+      <dataelement>
+     <name>Legal Firm Name</name>
+      <id>FRM</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Principal Attorney Name</name>
+      <id>FR2</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Associate Attorney Name</name>
+      <id>AAT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Agent's Name</name>
+      <id>AGT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Attorney Name</name>
+      <id>ATT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+     <name>Registration Number</name>
+      <id>REG</id>
+      <fieldsize>5</fieldsize>
+      <maxsize>5</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Representative Name</name>
+      <id>NAM</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Street</name>
+      <id>STR</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+   <dataelement>
+     <name>City</name>
+      <id>CTY</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>State</name>
+      <id>STA</id>
+      <fieldsize>2</fieldsize>
+      <maxsize>2</maxsize>
+      <datatype>A</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Country</name>
+      <id>CNT</id>
+      <fieldsize>3</fieldsize>
+      <maxsize>3</maxsize>
+      <datatype>A</datatype>
+      <required>O</required>
+    </dataelement>
+</logicalgroup>
+<logicalgroup>
+    <name>PCT Information</name>
+    <id>PCTA</id>
+    <dataelement>
+     <name>PCT Number</name>
+      <id>PCN</id>
+      <fieldsize>14</fieldsize>
+      <maxsize>14</maxsize>
+      <datatype>A/N</datatype>
+      <required>R</required>
+    </dataelement>
+    <dataelement>
+     <name>PCT 371 date</name>
+      <id>PD1</id>
+      <fieldsize>8</fieldsize>
+      <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+    <dataelement>
+     <name>PCT 102 (e) date</name>
+      <id>PD2</id>
+      <fieldsize>8</fieldsize>
+      <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+    <dataelement>
+     <name>PCT Filing date</name>
+      <id>PD3</id>
+      <fieldsize>8</fieldsize>
+      <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>R</required>
+    </dataelement>
+    <dataelement>
+     <name>PCT Publication Number</name>
+      <id>PCP</id>
+      <fieldsize>8</fieldsize>
+      <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>PCT Publication Date</name>
+      <id>PCD</id>
+      <fieldsize>8</fieldsize>
+      <maxsize>8</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>
+</logicalgroup>
+<logicalgroup>
+    <name>ABSTRACT</name>
+    <id>ABST</id>
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAC</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA0</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>  
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAR</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>EQU</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>   
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA1</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA2</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA4</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA5</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Foot note</name>
+      <id>FNT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>Table</name>
+      <id>TBL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Table</name>
+      <id>TB3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    </logicalgroup>
+    <logicalgroup>
+    <name>Government Interest</name>
+    <id>GOVT</id>
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAC</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAR</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA0</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>   
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA1</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA2</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA4</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA5</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Foot note</name>
+      <id>FNT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>Table</name>
+      <id>TBL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Table</name>
+      <id>TB3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     </logicalgroup>
+     <logicalgroup>
+    <name>Parent Case</name>
+    <id>PARN</id>
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAC</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA0</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>   
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA1</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA2</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA4</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA5</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Foot note</name>
+      <id>FNT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>Table</name>
+      <id>TBL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Table</name>
+      <id>TB3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     </logicalgroup>     
+     <logicalgroup>
+    <name>Breif Summery</name>
+    <id>BSUM</id>
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAC</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA0</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>   
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA1</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA2</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA4</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA5</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Foot note</name>
+      <id>FNT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>Table</name>
+      <id>TBL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Table</name>
+      <id>TB3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     </logicalgroup>     
+     <logicalgroup>
+    <name>Drawing Description</name>
+    <id>DRWD</id>
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAC</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA0</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>   
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA1</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA2</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA4</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA5</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Foot note</name>
+      <id>FNT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>Table</name>
+      <id>TBL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Table</name>
+      <id>TB3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     </logicalgroup>   
+     <logicalgroup>
+    <name>Detail Description</name>
+    <id>DETD</id>
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAC</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA0</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>   
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA1</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA2</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA4</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA5</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Foot note</name>
+      <id>FNT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>Table</name>
+      <id>TBL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Table</name>
+      <id>TB3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     </logicalgroup>   
+      <logicalgroup>
+    <name>Claims Information</name>
+    <id>CLMS</id>
+      <dataelement>
+     <name>Claims Statement</name>
+      <id>STM</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Claims Number</name>
+      <id>NUM</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>4</maxsize>
+      <datatype>N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAC</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA0</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>   
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA1</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA2</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA4</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA5</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Foot note</name>
+      <id>FNT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>Table</name>
+      <id>TBL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Table</name>
+      <id>TB3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     </logicalgroup>   
+     <logicalgroup>
+    <name>Design Claim</name>
+    <id>DCLM</id>
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAC</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+      <dataelement>
+     <name>Paragraph Text</name>
+      <id>PAR</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement> 
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA0</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>   
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA1</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA2</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+       <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA4</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Paragraph Text</name>
+      <id>PA5</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Foot note</name>
+      <id>FNT</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+      <dataelement>
+     <name>Table</name>
+      <id>TBL</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+    <dataelement>
+     <name>Table</name>
+      <id>TB3</id>
+      <fieldsize>-1</fieldsize>
+      <maxsize>-1</maxsize>
+      <datatype>A/N</datatype>
+      <required>O</required>
+    </dataelement>
+     </logicalgroup>     
+          
+</syntax>
